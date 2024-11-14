@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar proveedor</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+      <form class="form-libro" method="POST" action="agregar.php">
+        <div>
+          <h1 class="title-form">Nuevo proveedor</h1>
+          <div class="div-img">
+            <img class="img-libro" src="../imagenes/proveer.png" alt="">
+          </div>
+        </div>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" nombre="nombre" name="nombre" placeholder="escriba" required>
+
+        <label for="telefono">Telefono:</label>
+        <input type="text" nombre="telefono" name="telefono" placeholder="escriba" required>
+
+        <label for="direccion">Direccion:</label>
+        <input type="text" nombre="direccion" name="direccion" placeholder="escriba" required>
+
+        <label for="email">Email:</label>
+        <input type="text" nombre="email" name="email" placeholder="escriba" required>
+        
+        <input id="button-form" type="submit" value="Agregar">
+        <a href="../Proveedores.html">Regresar</a>
+      </form>
+    </div>  
+</body>
+</html>
